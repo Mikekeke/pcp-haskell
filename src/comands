@@ -1,0 +1,5 @@
+ghc -O2 [filename.sh] -threaded -rtsopts -eventlog
+
+./sudoku2 [filename.sh] +RTS -N2 -l
+or
+./sudoku2 [filename.sh] +RTS -N2 -s
